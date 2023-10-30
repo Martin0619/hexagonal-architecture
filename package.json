@@ -1,0 +1,16 @@
+{
+  "name": "moneytransfer",
+  "private": true,
+  "scripts": {
+    "test": "turbo test",
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.16"
+  }
+}
