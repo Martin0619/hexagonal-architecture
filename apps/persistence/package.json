@@ -1,0 +1,24 @@
+{
+  "name": "@moneytransfer/persistence",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsup"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@moneytransfer/application": "*",
+    "@moneytransfer/domain": "*"
+  },
+  "devDependencies": {
+    "@moneytransfer/tsconfig": "*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

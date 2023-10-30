@@ -1,0 +1,9 @@
+{
+  "extends": "@moneytransfer/tsconfig/tsconfig.base",
+  "include": ["."],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist",
+  },
+  "exclude": ["node_modules", "dist"]
+}
