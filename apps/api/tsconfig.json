@@ -1,0 +1,21 @@
+{
+  "extends": "@moneytransfer/tsconfig/tsconfig.base",
+  "include": ["."],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "typeRoots": [
+      "node_modules/@types",
+      "express-server.d.ts"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~types": ["express-server.d.ts"],
+      "~config/*": ["src/config/*"],
+      "~/account/*": ["src/account/*"],
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "exclude": ["node_modules", "dist"]
+}
