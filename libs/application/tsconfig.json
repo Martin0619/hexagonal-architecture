@@ -1,0 +1,15 @@
+{
+  "extends": "@moneytransfer/tsconfig/tsconfig.base",
+  "include": ["."],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "~input-ports/*": ["src/ports/in/*"],
+      "~output-ports/*": ["src/ports/out/*"],
+      "~services/*": ["src/services/*"],
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
