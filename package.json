@@ -4,7 +4,8 @@
   "scripts": {
     "test": "turbo test",
     "dev": "turbo dev",
-    "build": "turbo build"
+    "build": "turbo build",
+    "start": "npm run build && npm start -w @moneytransfer/api"
   },
   "workspaces": [
     "apps/*",

@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsup",
-    "dev": "tsup --watch --onSuccess \"node dist/index.js\""
+    "dev": "tsup --watch --onSuccess \"node dist/index.js\"",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
