@@ -1,6 +1,6 @@
-# HEXAGONAL ARCHITECTURE with Typescript Turbo Awilix EXAMPLE Project
+# **Hexagonal Architecture** with Typescript Turbo Awilix example Project
 
-## A fully functional EXAMPLE project written in Typescript showing how to implement the HEXAGONAL ARCHITECTURE (Ports and Adapters)
+## A fully functional example project written in **Typescript** showing how to implement the **Hexagonal Architecture** *(Ports and Adapters)*
 
 This project was built with Typescript and shows how to implement the HEXAGONAL ARCHITECTURE. It shows how to:
 
